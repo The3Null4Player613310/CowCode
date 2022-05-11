@@ -19,6 +19,7 @@ def cow_main():
 						print(' ', end='')
 					bit_index += 1
 		except:
+			print('\0', end='')
 			return;
 
 if (__name__ == '__main__'):
